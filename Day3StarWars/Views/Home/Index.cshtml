@@ -1,0 +1,9 @@
+﻿@model List<Day3StarWars.Models.Character>
+<h2>Characters</h2>
+@foreach (var character in Model)
+{
+    <p>Name: @character.Name</p>
+    <p>Species: @character.Species</p>
+    <p>Gender: @character.Gender</p>
+    <p>Character Type: @character.CharacterType</p>
+}

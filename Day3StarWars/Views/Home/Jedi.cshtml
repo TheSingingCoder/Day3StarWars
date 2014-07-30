@@ -1,0 +1,9 @@
+﻿@model List<Day3StarWars.Models.Jedi>
+<h2>Jedi List</h2>
+@foreach (var Jedi in Model)
+{
+    <p>Name: @Jedi.Name</p>
+    <p>Species: @Jedi.Species</p>
+    <p>Gender: @Jedi.Gender</p>
+    <p>Saber Color: @Jedi.SaberColor</p>
+}
